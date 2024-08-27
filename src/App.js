@@ -3,6 +3,9 @@ import "./App.css";
 import { Sum } from "./components/Sum";
 import InputComponent from "./components/OnchangeInput";
 import { ButtonComponent } from "./components/OnclickButton";
+import FunctionComponent from "./components/MethodTesting_FunctionalComponent";
+import RTLQury from "./components/RTL-Query";
+import GetByRole from "./components/GetByRole";
 
 function App() {
   return (
@@ -24,7 +27,12 @@ function App() {
     // </div>
     <div style={{margin:"20px 35px 35px 35px"}}>
       <InputComponent/>{" "}
-      <ButtonComponent/>
+      <ButtonComponent/><br></br>
+      <FunctionComponent/><br>
+      </br>
+      <RTLQury/> <br>
+      </br>
+      <GetByRole/>
     </div>
   );
 }

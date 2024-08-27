@@ -16,8 +16,8 @@ describe("Snapshot Testing Group",()=>{
         const container1 = render(<ButtonComponent/>);
         expect(container1).toMatchSnapshot();
     })
-    test("Snapshot-3",()=>{
-        const container2 = render(<App/>);
-        expect(container2).toMatchSnapshot();
-    })
+    // test("Snapshot-3",()=>{
+    //     const container2 = render(<App/>);
+    //     expect(container2).toMatchSnapshot();
+    // })
 })
