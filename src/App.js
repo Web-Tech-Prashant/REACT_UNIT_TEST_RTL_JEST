@@ -6,6 +6,8 @@ import { ButtonComponent } from "./components/OnclickButton";
 import FunctionComponent from "./components/MethodTesting_FunctionalComponent";
 import RTLQury from "./components/RTL-Query";
 import GetByRole from "./components/GetByRole";
+import GetByDisplayValue from "./components/GetByDisplayValue";
+import GetByTitle from "./components/GetByTitle";
 
 function App() {
   return (
@@ -33,6 +35,14 @@ function App() {
       <RTLQury/> <br>
       </br>
       <GetByRole/>
+      <br/>
+      <br/>
+      <br/>
+      <GetByDisplayValue/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <GetByTitle/>
     </div>
   );
 }
