@@ -8,6 +8,8 @@ import RTLQury from "./components/RTL-Query";
 import GetByRole from "./components/GetByRole";
 import GetByDisplayValue from "./components/GetByDisplayValue";
 import GetByTitle from "./components/GetByTitle";
+import QueryBy from "./components/QueryBy";
+import { FindBy } from "./components/FindBy";
 
 function App() {
   return (
@@ -43,6 +45,14 @@ function App() {
       <br></br>
       <br></br>
       <GetByTitle/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <QueryBy/>
+      <br></br>
+      <br></br>
+      <br></br>
+    <FindBy/>
     </div>
   );
 }
