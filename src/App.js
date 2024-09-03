@@ -10,6 +10,8 @@ import GetByDisplayValue from "./components/GetByDisplayValue";
 import GetByTitle from "./components/GetByTitle";
 import QueryBy from "./components/QueryBy";
 import { FindBy } from "./components/FindBy";
+import { OnClickWithUserEvent } from "./components/userEvents/OnClickWithUserEvent";
+import OnChange from "./components/userEvents/OnChangeWithUserEvent";
 
 function App() {
   return (
@@ -52,7 +54,16 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-    <FindBy/>
+    <FindBy/> 
+    <br></br>
+    <br></br>
+    <br></br>
+    <OnClickWithUserEvent/>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <OnChange/>
     </div>
   );
 }
